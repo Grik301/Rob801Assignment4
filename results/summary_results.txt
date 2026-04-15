@@ -1,0 +1,9 @@
+Assignment 4 POMDP results
+==========================
+
+task | policy | avg_reward | success_rate | avg_inspects | avg_len
+---- | ------ | ---------- | ------------ | ------------ | -------
+A | baseline | 1.800 | 0.600 | 1.000 | 2.000
+A | qlearning | 5.800 | 0.900 | 2.400 | 3.400
+B | baseline | 6.300 | 0.900 | 1.000 | 2.000
+B | qlearning | 6.300 | 0.900 | 1.000 | 2.000

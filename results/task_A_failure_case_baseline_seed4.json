@@ -1,0 +1,69 @@
+{
+  "task": "A",
+  "policy": "baseline",
+  "seed": 4,
+  "hidden_truth": "obj3",
+  "total_reward": -9.0,
+  "success": false,
+  "inspect_count": 1,
+  "episode_length": 2,
+  "actions": [
+    "inspect_obj1",
+    "pick_place_obj2"
+  ],
+  "observations": [
+    "unlikely_target",
+    "placed_incorrectly"
+  ],
+  "belief_sequence": [
+    [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    [
+      0.11111111111111112,
+      0.4444444444444445,
+      0.4444444444444445
+    ],
+    [
+      0.11111111111111112,
+      0.4444444444444445,
+      0.4444444444444445
+    ]
+  ],
+  "step_records": [
+    {
+      "step_index": 0,
+      "action": "inspect_obj1",
+      "observation": "unlikely_target",
+      "reward": -1.0,
+      "belief_before": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "belief_after": [
+        0.11111111111111112,
+        0.4444444444444445,
+        0.4444444444444445
+      ]
+    },
+    {
+      "step_index": 1,
+      "action": "pick_place_obj2",
+      "observation": "placed_incorrectly",
+      "reward": -8.0,
+      "belief_before": [
+        0.11111111111111112,
+        0.4444444444444445,
+        0.4444444444444445
+      ],
+      "belief_after": [
+        0.11111111111111112,
+        0.4444444444444445,
+        0.4444444444444445
+      ]
+    }
+  ]
+}
